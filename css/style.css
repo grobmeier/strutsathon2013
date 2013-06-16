@@ -1,0 +1,62 @@
+body {
+	font-family: Helvetica, Arial, Verdana;
+	height: 100%;
+}
+
+.brand {
+	text-align: center;
+}
+
+.social {
+	padding: 20px;
+}
+
+.stage {
+	margin: 0 auto;
+	max-width: 700px;
+}
+
+.page {
+	margin: 0 auto;
+}
+
+.addthis_toolbox {
+	width: 244px;
+	margin: 0 auto;
+}
+
+.page {
+	display: none;
+}
+
+.menu {
+	list-style-type: none;
+	text-align: center;
+}
+
+.menu li {
+	display: inline;
+	padding: 10px 10px 10px 10px;
+}
+
+social {
+	padding: 100px;
+}
+
+.speaker {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.speaker-img {
+	float: left;
+	margin-right: 20px;
+}
+
+.speaker-text {
+}
+
+footer {
+	color: gray;
+	font-size: 10px;
+}
