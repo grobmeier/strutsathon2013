@@ -1,10 +1,32 @@
 body {
-	font-family: Helvetica, Arial, Verdana;
+	font-family: PT Sans, Helvetica, Arial, Verdana;
 	height: 100%;
+
+	font-size: 18px;
+	line-height: 25px;
+	color: #666666;
+}
+
+h1, h2, h3 {
+	font-family: 'Jacques Francois', serif;
+}
+
+h2, h3 {
+	margin-top: 40px;
+}
+
+.c80 {
+	max-width: 400px;
+}
+
+.brand h1 {
+	font-size: 70px;
 }
 
 .brand {
 	text-align: center;
+	font-size: 22px;
+	line-height: 29px;
 }
 
 .social {
@@ -29,6 +51,10 @@ body {
 	display: none;
 }
 
+.menuSection {
+	background-color: #666666;
+}
+
 .menu {
 	list-style-type: none;
 	text-align: center;
@@ -37,7 +63,14 @@ body {
 .menu li {
 	display: inline;
 	padding: 10px 10px 10px 10px;
+	text-decoration: none;
 }
+
+.menu li a {
+	text-decoration: none;
+	color: #eeeeee;
+}
+
 
 social {
 	padding: 100px;
@@ -50,13 +83,12 @@ social {
 
 .speaker-img {
 	float: left;
-	margin-right: 20px;
-}
-
-.speaker-text {
+	margin-right: 50px;
 }
 
 footer {
+	margin-top: 40px;
 	color: gray;
 	font-size: 10px;
+	line-height: 17px;
 }
