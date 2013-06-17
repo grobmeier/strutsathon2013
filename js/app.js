@@ -1,4 +1,8 @@
 $(document).ready(function() {
+	$.ajaxSetup ({
+    	cache: false
+	});
+
 	var roadcrew = new Roadcrew();
 
 	roadcrew.flip = function (page) {
