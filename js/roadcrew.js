@@ -70,11 +70,12 @@ Roadcrew.prototype.goto = function (event, data) {
    if(typeof (event) === "string") {
         url = event;
    } else {
-      event.preventDefault();
+console.log(event);
+console.log(data);
       if (event.target.nodeName == 'A' || event.target.nodeName == 'BUTTON') {
         url = event.target.getAttribute('data-target');
       } else if($(event.target).parent().prop("tagName") == 'BUTTON' ) {
-          url = $(event.target).parent().attr('data-target');
+        url = $(event.target).parent().attr('data-target');
       }
    }
 
@@ -82,12 +83,12 @@ Roadcrew.prototype.goto = function (event, data) {
        return;
    }
 
+   event.preventDefault();
+
    this.path.push(url);
 
    var page = $(url);
    if (page.hasClass("rc-unloaded-partial")) {
-    console.log("OK");
-    console.log(page.attr("data-rc-partial"));
        page.load(page.attr("data-rc-partial"));
        page.removeClass("rc-unloaded-partial");
    }
