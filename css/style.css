@@ -86,6 +86,14 @@ social {
 	margin-right: 50px;
 }
 
+.sponsor {
+	background-color: #cccccc;
+}
+
+.sponsor-content  {
+	padding: 80px;
+}
+
 footer {
 	margin-top: 40px;
 	color: gray;
